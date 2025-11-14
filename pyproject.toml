@@ -1,0 +1,17 @@
+[build-system]
+requires = ["uv_build >= 0.9.8, <0.10.0"]
+build-backend = "uv_build"
+
+[project]
+name = "taxislib"
+version = "0.0.1"
+description = "Simple data structure library."
+authors = [
+  {name = "hayashi", email = "hayashi19t@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+
+[project.urls]
+Repository = "https://github.com/hayashi19/Taxis.git"
